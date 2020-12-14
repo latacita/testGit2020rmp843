@@ -6,12 +6,6 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(06)    checkout commit [a655ef4]
-(07)    branch Antecedentes
-(07)    checkout Antecedentes
-(08)    creado y rellenado antecedentes.txt
-(09)    bitacora.txt modificado
-(09)    commit 
 (10)    checkout master
 (11)    push origin DatosPersonales
 (12)    fast-forward                Esto es debido a que no se ha hecho ningún cambio en master posterior a la creacion de las ramas.
@@ -19,6 +13,9 @@
 (13)    commit                      Master ha sido actualizado, asi que el commit da un error diciendo que origin no está actualizada.
 (13)    pull                        Ha aparecido un texto intrusivo en la parte de las vacunas tras el auto-merge en PlanVacunacion.txt.
 (13)    eliminacion del texto intrusivo en PlanVacunacion.txt
-
-
-
+(13)    commit
+(14)    checkout  Master
+(15)    merge Antecedentes sin recursion forzada
+(15)    resueltos conflictos en bitacora.texto
+(15)    commit de merge
+(16)    bitacora.txt editado
