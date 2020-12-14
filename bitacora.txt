@@ -24,3 +24,6 @@
 (15)    commit de merge
 (16)    fichero bitacora.txt editado
 (16)    commit                        El commit se realizó en el paso del anterior merge debido a una equivocación. Se vuelve a realizar en este paso una vez más.
+(17)    tag master FusionTerminada
+(18)    push origin master
+(19)    bitacora.txt modificado
