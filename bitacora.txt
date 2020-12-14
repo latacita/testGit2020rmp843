@@ -1,8 +1,14 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Matas Pereda, Roberto                %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(01)    Clone
+(02)    branch DatosPersonales
+(02)    checkout DatosPersonales
+(03)    PlanVacunacion.txt actualizado
+(04)    bitacora.txt actualizado
+(05)    commit "Paso 05"
