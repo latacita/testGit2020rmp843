@@ -1,17 +1,11 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre): Matas Pereda, Roberto                %%
+%% Alumno (Apellidos, Nombre):                                      %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(01)    Clone
-(02)    branch DatosPersonales
-(02)    checkout DatosPersonales
-(03)    PlanVacunacion.txt actualizado
-(04)    bitacora.txt actualizado
-(05)    commit "Paso 05"
 (10)    checkout master
 (11)    push origin DatosPersonales
 (12)    fast-forward                Esto es debido a que no se ha hecho ningún cambio en master posterior a la creacion de las ramas.
@@ -21,10 +15,11 @@
 (13)    eliminacion del texto intrusivo en PlanVacunacion.txt
 (13)    commit
 (14)    checkout  Master
-(15)    merge Antecedentes sin recursion forzada
-(15)    resueltos conflictos en bitacora.texto
+(14)    merge Antecedentes sin recursion forzada
+(14)    resueltos conflictos en bitacora.texto
+(14)    commit de merge
+(15)    checkout master
+(15)    merge DatosPersonales sin recursion forzada   Hubieron conflictos en bitacora.txt.
+(15)    solucionar conflictos en bitacora.txt
 (15)    commit de merge
-(16)    bitacora.txt editado
-
-
-
+(16)    fichero bitacora.txt editado
